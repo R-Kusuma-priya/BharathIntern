@@ -1,0 +1,177 @@
+*{
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: rgba(4, 4, 12, 0.95);
+    overflow:hidden;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    background-image: url("wedbbg.jpg");
+    background-size:cover; 
+    height:100vh;
+    overflow:auto;
+}
+.nav{
+    display:flex;
+    height:50px;
+    color:white;
+    position:fixed;
+    /* background-color: rgb(18, 18, 62,0.25); */
+}
+.front{
+    display:flex;
+}
+.last{
+    display:flex;
+}
+.nav img{
+    padding-left:30px;
+    width:7rem;
+    height:3rem;
+}
+.front a{
+    display:flex;
+    text-decoration:none;
+    align-items: center;
+    color:white;
+    padding-left:1.5rem;
+}
+.back{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:25rem;
+    padding-right:1rem;
+}
+.back img{
+    width:2rem;
+    height:2rem;
+    padding-right:1rem;
+}
+.back a{
+    text-decoration: none;
+    color:white;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.body{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    width:100vh;
+    color:white;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    /* padding-left:10px; */
+    width:200px;
+    height:300px;
+    padding-top:70px;
+}
+.line1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:0.75rem;
+
+}
+.line1 img{
+    width:2rem;
+    height:2rem;
+    padding-right:0.25rem;
+}
+.line1 a{
+    text-decoration:none;
+    color:white;
+}
+.line2 img{
+    width:500px;
+    height:150px;
+    padding-left:40px;
+    padding-bottom:1rem;
+}
+.line3{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    width:500px;
+}
+.line3 img{
+    height:2rem;
+    width:2rem;
+    border-radius:12px;
+    padding-left:40px;
+    padding-right:0.5rem;
+}
+.line3 a{
+    text-decoration: none;
+    color:white;
+}
+.line4{
+    width:500px;
+    padding-left:40px;
+    padding-top:0.9rem;
+}
+.line5{
+    padding-left:40px;
+    width:550px;
+    padding-top:1rem;
+    justify-content: space-between;
+}
+.one{
+    width:8rem;
+    height:2.5rem;
+    border-radius:5px;
+    background-color: rgba(239, 233, 233, 0.97);
+    color:black;
+    appearance:none;
+}
+button{
+    width:8rem;
+    height:2.5rem;
+    border-radius:5px;
+    background-color: rgba(73, 67, 67, 0.5);
+    color:white;
+    appearance:none;
+}
+button:hover{
+    background-color:white;
+    color:black;
+}
+button i{
+    padding-right:0.75rem;
+}
+.lists{
+    margin-top:100px;
+    display:flex;
+    /* flex-direction: column; */
+    width:100vh;
+    
+}
+.para{
+    width:500px;
+    margin-top:110px;
+    padding-left:20px;
+}
+.lists{
+
+    margin-top: 0;
+    margin-left:20px;
+}
+.images{
+    display:flex;
+    flex-direction: row;
+    margin-right:0.5rem;
+    width:400px;
+    height:200px;
+}
